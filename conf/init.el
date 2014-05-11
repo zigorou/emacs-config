@@ -34,6 +34,12 @@
 ;; C-hでバックスペース
 (global-set-key "\C-h" 'delete-backward-char)
 
+;; 透明度
+(modify-frame-parameters (selected-frame) '((alpha  . 95)))
+
+;; フリンジ(左右の折り返し表示領域)はいらない
+(fringe-mode 0)
+
 ;; 対応する括弧を光らせる
 (show-paren-mode 1)
 
@@ -91,6 +97,10 @@
 (unless (server-running-p)
   (server-start))
 
+; emacsclient で Buffer `hogehoge' still has clients; kill it? (yes or no) とかいわれるのがうざいのをなおす
+; http://aki.issp.u-tokyo.ac.jp/itoh/hiChangeLog/html/2007-04.html#2007-04-09-1
+(remove-hook 'kill-buffer-query-functions 'server-kill-buffer-query-function)
+
 ;; C-x k は current-buffer 専用にしちゃう
 (defun kill-current-buffer ()
   (interactive)
@@ -103,3 +113,4 @@
 ;;; cocoa-* だと最後によみこまれて、helmとかのキーもきえてしまうので、C-zの無効はここでやる
 ;(if (or (equal window-system 'ns) (equal window-system 'mac))
 ;    (define-key global-map (kbd "C-z") nil))
+
