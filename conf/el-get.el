@@ -24,13 +24,13 @@
           go-eldoc
           js3-mode
           json-mode
+          json-reformat
           lua-mode
           markdown-mode
           perl-debug
           plantuml-mode
           set-perl5lib
           yaml-mode
-          
           ))
 
 (if (locate-file "llvm-config" exec-path)

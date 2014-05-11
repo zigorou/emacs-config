@@ -4,6 +4,7 @@
 		   "init.el"
 		   "exec-path.el"
 		   "el-get.el"
+           "json-mode.el"
            "markdown-mode.el"
            "git-gutter.el"
 		   )))
