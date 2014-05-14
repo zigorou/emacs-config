@@ -34,6 +34,9 @@
 ;; C-hでバックスペース
 (global-set-key "\C-h" 'delete-backward-char)
 
+;; 円マークの代わりにバックスラッシュを入力する
+(define-key global-map [?￥] [?＼＼])
+
 ;; 透明度
 (modify-frame-parameters (selected-frame) '((alpha  . 95)))
 
