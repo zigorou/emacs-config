@@ -32,3 +32,8 @@
   (mapc
    (lambda (buf) (set-buffer buf) (cd (expand-file-name "~"))) (buffer-list)))
 (add-hook 'after-init-hook 'cd-to-homedir-all-buffers)
+
+(setq ns-command-modifier (quote meta))
+(setq ns-alternate-modifier (quote super))
+
+(define-key global-map [?¥] [?\\]) 
