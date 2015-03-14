@@ -1,12 +1,14 @@
 (let* (
        (user-emacs-directory (substring (or load-file-name "~/.emacs.d/init.el") 0 -7))
        (conf-list (list
-		   "init.el"
-		   "exec-path.el"
-		   "el-get.el"
-           "json-mode.el"
-           "markdown-mode.el"
-           "git-gutter.el"
+                   "init.el"
+                   "el-get.el"
+                   "cc-mode.el"
+                   "go-mode.el"
+                   "exec-path.el"
+                   "json-mode.el"
+                   "markdown-mode.el"
+                   "git-gutter.el"
 		   )))
   (progn (dolist (conf conf-list)
 	   (load (concat user-emacs-directory "conf/" conf)))

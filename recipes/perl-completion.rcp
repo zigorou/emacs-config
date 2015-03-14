@@ -1,0 +1,4 @@
+(:name perl-completion
+       :description "minor mode provides useful features for editing perl codes"
+       :type http
+       :url "http://www.emacswiki.org/emacs/download/perl-completion.el")
