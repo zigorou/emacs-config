@@ -19,11 +19,14 @@
 (el-get 'sync
         '(el-get
           auto-complete
+          flymake
+          flycheck
           c-eldoc
           auto-complete-c-headers
           auto-complete-clang
           cperl-mode
           perl-debug
+          perl-completion
           set-perl5lib
           ruby-mode
           enh-ruby-mode
@@ -33,6 +36,7 @@
           go-mode
           go-eldoc
           go-autocomplete
+          go-flymake
           lua-mode
           js3-mode
           json-mode

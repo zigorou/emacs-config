@@ -3,9 +3,11 @@
        (conf-list (list
                    "init.el"
                    "el-get.el"
-                   "cc-mode.el"
-                   "go-mode.el"
                    "exec-path.el"
+                   "flymake.el"
+                   "cc-mode.el"
+                   "clang-complete.el"
+                   "go-mode.el"
                    "json-mode.el"
                    "markdown-mode.el"
                    "git-gutter.el"
