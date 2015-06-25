@@ -4,6 +4,8 @@
 		   "init.el"
 		   "exec-path.el"
 		   "el-get.el"
+           "cperl-mode.el"
+           "scala-mode.el"
            "json-mode.el"
            "markdown-mode.el"
            "git-gutter.el"

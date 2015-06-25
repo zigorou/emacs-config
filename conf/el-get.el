@@ -25,6 +25,7 @@
           js3-mode
           json-mode
           json-reformat
+          scala-mode2
           lua-mode
           markdown-mode
           perl-debug
