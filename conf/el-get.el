@@ -18,6 +18,8 @@
 
 (el-get 'sync
         '(el-get
+          let-alist
+          emacs-powerline
           auto-complete
           flymake
           flycheck
@@ -30,8 +32,8 @@
           set-perl5lib
           ruby-mode
           enh-ruby-mode
-          ;; ruby-electric
-          ;; ruby-block
+          ruby-electric
+          ruby-block
           auto-complete-ruby
           go-mode
           go-eldoc
