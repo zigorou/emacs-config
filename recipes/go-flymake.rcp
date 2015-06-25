@@ -1,0 +1,4 @@
+(:name go-eldoc
+       :description "flymake for go-mode"
+       :type github
+       :pkgname "dougm/goflymake")

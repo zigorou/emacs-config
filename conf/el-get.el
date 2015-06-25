@@ -18,20 +18,36 @@
 
 (el-get 'sync
         '(el-get
+          auto-complete
+          flymake
+          flycheck
+          c-eldoc
+          auto-complete-c-headers
+          auto-complete-clang
           cperl-mode
-          git-gutter
+          perl-debug
+          perl-completion
+          set-perl5lib
+          ruby-mode
+          enh-ruby-mode
+          ;; ruby-electric
+          ;; ruby-block
+          auto-complete-ruby
           go-mode
           go-eldoc
+          go-autocomplete
+          go-flymake
+          lua-mode
           js3-mode
           json-mode
           json-reformat
           scala-mode2
           lua-mode
-          markdown-mode
-          perl-debug
-          plantuml-mode
-          set-perl5lib
           yaml-mode
+          markdown-mode
+          plantuml-mode
+          git-gutter
+          auto-complete-emacs-lisp
           ))
 
 (if (locate-file "llvm-config" exec-path)
