@@ -11,6 +11,7 @@
                    "clang-complete.el"
                    "go-mode.el"
                    "json-mode.el"
+                   "plantuml-mode.el"
                    "markdown-mode.el"
                    "git-gutter.el"
 		   )))
