@@ -35,6 +35,7 @@
           ruby-electric
           ruby-block
           auto-complete-ruby
+          adoc-mode
           go-mode
           go-eldoc
           go-autocomplete

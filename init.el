@@ -7,6 +7,7 @@
                    "cperl-mode.el"
                    "scala-mode.el"
                    "flymake.el"
+                   "adoc-mode.el"
                    "cc-mode.el"
                    "clang-complete.el"
                    "go-mode.el"
