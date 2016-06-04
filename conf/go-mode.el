@@ -1,4 +1,8 @@
-(setenv "GOPATH" (expand-file-name "~/go"))
+(setenv "GOOS" "darwin")
+(setenv "GOARCH" "amd64")
+(setenv "GOPATH" (expand-file-name "~/.gvm/pkgsets/go1.4/global"))
+
+(add-to-list 'exec-path (concat (getenv "GOPATH") "/bin"))
 
 ;; gocode
 (require 'go-autocomplete)
