@@ -1,6 +1,6 @@
 (setenv "GOOS" "darwin")
 (setenv "GOARCH" "amd64")
-(setenv "GOPATH" (expand-file-name "~/.gvm/pkgsets/go1.4/global"))
+(setenv "GOPATH" (expand-file-name "~"))
 
 (add-to-list 'exec-path (concat (getenv "GOPATH") "/bin"))
 
@@ -26,4 +26,5 @@
             (local-set-key (kbd "C-c i") 'go-goto-imports)
             (local-set-key (kbd "C-c d") 'godoc)))
 
+(setq gofmt-command "goimports")
 (add-hook 'before-save-hook 'gofmt-before-save)
