@@ -103,6 +103,8 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; local-variables safe なのは自動で適用
 (setq enable-local-variables :safe)
 
+(setq network-security-level 'low)
+
 ;; start server
 (require 'server)
 (unless (server-running-p)

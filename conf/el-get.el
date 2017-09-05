@@ -29,12 +29,12 @@
           cperl-mode
           perl-debug
           perl-completion
-          set-perl5lib
+          ; set-perl5lib
           ruby-mode
           enh-ruby-mode
           ruby-electric
           ruby-block
-          auto-complete-ruby
+          ; auto-complete-ruby
           adoc-mode
           go-mode
           go-eldoc
@@ -44,13 +44,12 @@
           js3-mode
           json-mode
           json-reformat
-          scala-mode2
           lua-mode
           yaml-mode
           markdown-mode
           plantuml-mode
           git-gutter
-          auto-complete-emacs-lisp
+          ;; auto-complete-emacs-lisp
           ))
 
 (if (locate-file "llvm-config" exec-path)
